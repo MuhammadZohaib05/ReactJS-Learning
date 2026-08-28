@@ -7,9 +7,7 @@ function ProfileCard() {
         <div className={styles.avatar}>MZ</div>
 
         <h1 className={styles.name}>Muhammad Zohaib</h1>
-
         <p className={styles.role}>ReactJS Student</p>
-
         <p className={styles.description}>
           Currently learning React, Components and CSS.
           Building my skills one project at a time.
