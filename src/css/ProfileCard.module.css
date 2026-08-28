@@ -1,0 +1,70 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.card {
+  width: 350px;
+  padding: 40px 30px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #242424;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.name {
+  margin: 0;
+  font-size: 28px;
+  color: grey;
+}
+
+.role {
+  margin-top: 10px;
+  color: #666;
+  font-size: 18px;
+}
+
+.description {
+  margin-top: 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.button {
+  margin-top: 25px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #242424;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
