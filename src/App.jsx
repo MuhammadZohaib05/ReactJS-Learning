@@ -5,12 +5,13 @@ import TodoItem from './components/TodoItem'
 import Button from './components/TDButton'
 import './css/Todo.css'
 import MyFun from './components/Functions'
-
+import Fruits from './components/Array'
+import {Person , MultipleUsers} from './components/Object'
 function App() {
 
   return (
     <>
-      {/* <Hello />
+      <Hello />
       <Profile />
       <div className="todo-container">
         <Todo />
@@ -20,8 +21,11 @@ function App() {
         <TodoItem />
         <TodoItem />
         <Button />
-      </div> */}
+      </div>
       <MyFun />
+      <Fruits />
+      <Person />
+      <MultipleUsers />
     </>
   )
 }
