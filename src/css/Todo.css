@@ -4,6 +4,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.todo-header{
+  color: gray;
+}
+
 .todo-container {
   width: 300px;
   margin: 50px auto;
@@ -29,4 +33,9 @@ body {
 
 .todo-item-text {
   margin-left: 5px;
+}
+
+.todo-button:hover {
+  background-color: black;
+  color: white;
 }
