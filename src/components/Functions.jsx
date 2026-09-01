@@ -39,6 +39,7 @@ function MyFun(){
             
             <h1><i>MouseOver & DoubleClicked</i></h1>
             <p onMouseOver={HandleMouseOver} onDoubleClick={HandleDoubleClick}>Lorem ipsum dolor sit amet.</p>
+            <hr />
 
         </>
     )

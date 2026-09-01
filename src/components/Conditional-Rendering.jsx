@@ -38,6 +38,7 @@ function Visibility(){
         <div>
             <h1 className={visiblity}>Conditional Rendering</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nesciunt.</p>
+            <hr />
         </div>
     )
 }

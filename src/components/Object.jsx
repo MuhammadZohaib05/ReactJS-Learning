@@ -39,6 +39,7 @@ function MultipleUsers(){
                 <li>{fullName(user)} is {user.age} years old.</li>
             ))}
             </ul>
+            <hr />
         </div>
     )
 }

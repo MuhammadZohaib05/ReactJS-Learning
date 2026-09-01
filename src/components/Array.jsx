@@ -10,7 +10,9 @@ function Fruits(){
                     <li>{index} - {fruit}</li>
                 ))}
             </ul>
+            <hr />
         </div>
+        
     )
     
 }
