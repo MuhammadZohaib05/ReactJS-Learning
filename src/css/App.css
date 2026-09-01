@@ -1,3 +1,16 @@
+/* Header.jsx file CSS */
 .test{
-  color: white;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+/* Conditional Rendering file CSS */
+.visible {
+  display: block;
+}
+
+.unvisible {
+  display: none;
 }
