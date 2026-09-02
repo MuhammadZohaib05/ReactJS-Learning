@@ -8,9 +8,12 @@ import MyFun from './components/Functions'
 import Fruits from './components/Array'
 import {Person , MultipleUsers} from './components/Object'
 import {Login , Message , Visibility} from './components/Conditional-Rendering'
+import Props from './components/Props'
+import PButton from './components/PButton'
 
 function App() {
 
+  // Conditional Rendering
   // const isLoggedIn = true;
   // if(isLoggedIn){
   //   return <Hello />
@@ -18,6 +21,19 @@ function App() {
   // else{
   //   return <Fruits />
   // }
+
+  // Props.jsx 
+  // const hobbies = ["Reading" , "Coding" , "Travelling"]
+  
+  // PButton.jsx
+  // function Message(){
+  //   alert("Hello From Message Box")
+  // }
+  // function ByeMessege(){
+  //   alert("Hello From Bye Messege Box")
+  // }
+
+
 
   return (
     <>
@@ -41,6 +57,12 @@ function App() {
       <Login />
       <Message />
       <Visibility />
+      {/* <Props name="Zohaib" age={25} city="Lahore" hobbies={hobbies}/>
+      <PButton label="Click Me" handleClick={Message} />
+      <br />
+      <PButton label="Just Click" handleClick={ByeMessege} />
+      <hr /> */}
+
     </>
   )
 }
