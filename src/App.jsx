@@ -10,6 +10,11 @@ import {Person , MultipleUsers} from './components/Object'
 import {Login , Message , Visibility} from './components/Conditional-Rendering'
 import Props from './components/Props'
 import PButton from './components/PButton'
+import Counter from './components/Counter' 
+import ToggleText from './components/ToggleText'
+import LikeButton from './components/LikeButton'
+import UserProfile from './components/UserProfile'
+import Student from './components/Student'
 
 function App() {
 
@@ -62,6 +67,11 @@ function App() {
       <br />
       <PButton label="Just Click" handleClick={ByeMessege} />
       <hr /> */}
+      <Counter />
+      <ToggleText />
+      <LikeButton />
+      <UserProfile />
+      <Student />
 
     </>
   )
