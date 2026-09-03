@@ -50,6 +50,7 @@ function MultiInputForm(){
             <br />
 
             <button type="submit">Submit</button>
+            <p>-----------------------------------------</p>
         
         </form>
     )
