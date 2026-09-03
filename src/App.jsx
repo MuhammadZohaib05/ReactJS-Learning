@@ -16,6 +16,7 @@ import LikeButton from './components/LikeButton'
 import UserProfile from './components/UserProfile'
 import Student from './components/Student'
 import SimpleForm from './components/Simple-Form'
+import MultiInputForm from './components/MultiInputForm'
 
 function App() {
 
@@ -74,6 +75,7 @@ function App() {
       <UserProfile />
       <Student />
       <SimpleForm />
+      <MultiInputForm />
 
     </>
   )

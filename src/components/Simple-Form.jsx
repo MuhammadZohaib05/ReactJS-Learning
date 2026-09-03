@@ -23,6 +23,7 @@ function SimpleForm(){
             <br />
 
             <button type="submit">Submit</button>
+            <p>-----------------------------------------</p>
         </form>
     )
 }
