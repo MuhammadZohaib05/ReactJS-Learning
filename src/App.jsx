@@ -18,6 +18,7 @@ import Student from './components/Student'
 import SimpleForm from './components/Simple-Form'
 import MultiInputForm from './components/MultiInputForm'
 import AdvanceForm from './components/AdvancedForm'
+import UncontrolledForm from './components/Uncontrolled-Form'
 
 function App() {
 
@@ -78,6 +79,7 @@ function App() {
       <SimpleForm />
       <MultiInputForm />
       <AdvanceForm />
+      <UncontrolledForm />
 
     </>
   )
