@@ -15,6 +15,7 @@ import ToggleText from './components/ToggleText'
 import LikeButton from './components/LikeButton'
 import UserProfile from './components/UserProfile'
 import Student from './components/Student'
+import SimpleForm from './components/Simple-Form'
 
 function App() {
 
@@ -72,6 +73,7 @@ function App() {
       <LikeButton />
       <UserProfile />
       <Student />
+      <SimpleForm />
 
     </>
   )
