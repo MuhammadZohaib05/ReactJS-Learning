@@ -19,6 +19,7 @@ import SimpleForm from './components/Simple-Form'
 import MultiInputForm from './components/MultiInputForm'
 import AdvanceForm from './components/AdvancedForm'
 import UncontrolledForm from './components/Uncontrolled-Form'
+import BasicValidationForm from './components/BasicValidationForm'
 
 function App() {
 
@@ -80,6 +81,7 @@ function App() {
       <MultiInputForm />
       <AdvanceForm />
       <UncontrolledForm />
+      <BasicValidationForm />
 
     </>
   )
