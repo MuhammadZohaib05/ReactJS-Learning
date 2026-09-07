@@ -26,6 +26,15 @@ import Timer from './components/Timer'
 import WindowSizeTracker from './components/WindowSizeTracker'
 import UsersUseEffect from './components/UsersUseEffect'
 
+import {BrowserRouter , Routes , Route ,Link} from 'react-router-dom'
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import NotFound from './components/NotFound'
+import Products from './components/Products'
+import Phone from './components/Phone'
+import Laptop from './components/Laptop'
+
 function App() {
 
   // Conditional Rendering
@@ -92,6 +101,30 @@ function App() {
       <Timer />
       <WindowSizeTracker />
       <UsersUseEffect />
+
+      <BrowserRouter>
+
+        <h1>React Router Example</h1>
+
+        <nav>
+          <Link to="/">Home</Link> |
+          <Link to="/about">About</Link> |
+          <Link to="/contact">Contact</Link> | 
+          <Link to="/products">Products</Link>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Products />}>
+            <Route path="phone" element={<Phone />} />
+            <Route path="laptop" element={<Laptop />} />
+          </Route>
+          <Route path="*" element={<NotFound />} />
+
+        </Routes>
+      </BrowserRouter>
 
     </>
   )
