@@ -40,6 +40,7 @@ function BasicValidationForm(){
             {error && <p style={{color: "red"}}>{error}</p>}
 
             <button type="submit">Submit</button>
+            <hr />
 
         </form>
     )
