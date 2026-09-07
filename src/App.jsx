@@ -21,6 +21,7 @@ import AdvanceForm from './components/AdvancedForm'
 import UncontrolledForm from './components/Uncontrolled-Form'
 import BasicValidationForm from './components/BasicValidationForm'
 import Todos from './components/Todos'
+import UseEffect from './components/Basic-UseEffect'
 
 function App() {
 
@@ -84,6 +85,7 @@ function App() {
       <UncontrolledForm />
       <BasicValidationForm />
       <Todos />
+      <UseEffect />
 
     </>
   )
