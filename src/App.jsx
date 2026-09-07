@@ -23,6 +23,7 @@ import BasicValidationForm from './components/BasicValidationForm'
 import Todos from './components/Todos'
 import UseEffect from './components/Basic-UseEffect'
 import Timer from './components/Timer'
+import WindowSizeTracker from './components/WindowSizeTracker'
 
 function App() {
 
@@ -88,6 +89,7 @@ function App() {
       <Todos />
       <UseEffect />
       <Timer />
+      <WindowSizeTracker />
 
     </>
   )
