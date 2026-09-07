@@ -24,6 +24,7 @@ import Todos from './components/Todos'
 import UseEffect from './components/Basic-UseEffect'
 import Timer from './components/Timer'
 import WindowSizeTracker from './components/WindowSizeTracker'
+import UsersUseEffect from './components/UsersUseEffect'
 
 function App() {
 
@@ -90,6 +91,7 @@ function App() {
       <UseEffect />
       <Timer />
       <WindowSizeTracker />
+      <UsersUseEffect />
 
     </>
   )
