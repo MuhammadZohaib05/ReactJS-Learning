@@ -15,6 +15,7 @@ function BasicUseEffect() {
     <div>
         <h2>Count : {count}</h2>
         <button onClick={()=>setCount(count + 1)}>Increment</button>
+        <hr />
     </div>
   )
 }

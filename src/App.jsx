@@ -22,6 +22,7 @@ import UncontrolledForm from './components/Uncontrolled-Form'
 import BasicValidationForm from './components/BasicValidationForm'
 import Todos from './components/Todos'
 import UseEffect from './components/Basic-UseEffect'
+import Timer from './components/Timer'
 
 function App() {
 
@@ -86,6 +87,7 @@ function App() {
       <BasicValidationForm />
       <Todos />
       <UseEffect />
+      <Timer />
 
     </>
   )
