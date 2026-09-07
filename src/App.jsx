@@ -20,6 +20,7 @@ import MultiInputForm from './components/MultiInputForm'
 import AdvanceForm from './components/AdvancedForm'
 import UncontrolledForm from './components/Uncontrolled-Form'
 import BasicValidationForm from './components/BasicValidationForm'
+import Todos from './components/Todos'
 
 function App() {
 
@@ -82,6 +83,7 @@ function App() {
       <AdvanceForm />
       <UncontrolledForm />
       <BasicValidationForm />
+      <Todos />
 
     </>
   )
