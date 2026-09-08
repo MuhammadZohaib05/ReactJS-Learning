@@ -12,6 +12,7 @@ function Home(){
         <div>
             <h1>Welcome to Home Page</h1>
             <button onClick={gotoAbout}>Go to About</button>
+            <hr />
         </div>
     )
 }
