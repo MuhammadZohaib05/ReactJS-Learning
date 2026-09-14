@@ -38,7 +38,15 @@ import Timer2 from './components/Timer2'
 import AutoSaveForm from './components/AutoSaveForm'
 import Parent from './components/Parent'
 
+
+// Using UseContext()
+import { createContext , useContext } from 'react'
+
+const userContext = createContext()
 function App() {
+
+  // Using UseContext()
+  const user = "Zohaib"
 
   // Conditional Rendering
   // const isLoggedIn = true;
@@ -134,6 +142,37 @@ function App() {
 
       <Parent />
 
+      // Using UseContext()
+      <userContext.Provider value={user}>
+        <UCParent />
+      </userContext.Provider>
+
+    </>
+  )
+}
+
+// Using UseContext()
+
+function UCParent(){
+  return <UCChild />
+}
+
+function UCChild() {
+  const user = useContext(userContext)
+
+  return (
+    <>
+      <h1 style={{color:"blue"}}>Name : {user}</h1>
+      <UCGrandChild />
+    </>
+  )
+}
+function UCGrandChild() {
+  const user = useContext(userContext)
+  return (
+    <>
+        <h3>My Name is {user}</h3>
+        <hr />
     </>
   )
 }
