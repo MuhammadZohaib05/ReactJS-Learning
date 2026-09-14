@@ -35,6 +35,7 @@ import Products from './components/Products'
 import Phone from './components/Phone'
 import Laptop from './components/Laptop'
 import Timer2 from './components/Timer2'
+import AutoSaveForm from './components/AutoSaveForm'
 
 function App() {
 
@@ -127,7 +128,8 @@ function App() {
         </Routes>
       </BrowserRouter>
 
-      <Timer2 />
+      {/* <Timer2 /> */}
+      <AutoSaveForm />
 
     </>
   )
