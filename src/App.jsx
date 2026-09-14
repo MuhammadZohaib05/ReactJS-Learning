@@ -36,6 +36,7 @@ import Phone from './components/Phone'
 import Laptop from './components/Laptop'
 import Timer2 from './components/Timer2'
 import AutoSaveForm from './components/AutoSaveForm'
+import Parent from './components/Parent'
 
 function App() {
 
@@ -130,6 +131,8 @@ function App() {
 
       {/* <Timer2 /> */}
       <AutoSaveForm />
+
+      <Parent />
 
     </>
   )
