@@ -10,6 +10,7 @@ function UseReducer() {
             onChange={toggle} />
 
             {checked ? "Checked" : "Not Checked"}
+            <hr />
         </div>
   )
 }

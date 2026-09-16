@@ -38,6 +38,7 @@ import Timer2 from './components/Timer2'
 import AutoSaveForm from './components/AutoSaveForm'
 import Parent from './components/Parent'
 import UseReducer from './components/useReducer'
+import UseReducer2 from './components/UseReducer2'
 
 // Using UseContext()
 import { createContext , useContext } from 'react'
@@ -150,6 +151,7 @@ function App() {
       </userContext.Provider>
 
       <UseReducer />
+      <UseReducer2 />
 
     </>
   )
