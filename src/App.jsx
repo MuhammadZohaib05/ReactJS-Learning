@@ -37,7 +37,7 @@ import Laptop from './components/Laptop'
 import Timer2 from './components/Timer2'
 import AutoSaveForm from './components/AutoSaveForm'
 import Parent from './components/Parent'
-
+import UseReducer from './components/useReducer'
 
 // Using UseContext()
 import { createContext , useContext } from 'react'
@@ -47,6 +47,8 @@ function App() {
 
   // Using UseContext()
   const user = "Zohaib"
+
+  
 
   // Conditional Rendering
   // const isLoggedIn = true;
@@ -146,6 +148,8 @@ function App() {
       <userContext.Provider value={user}>
         <UCParent />
       </userContext.Provider>
+
+      <UseReducer />
 
     </>
   )
