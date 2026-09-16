@@ -39,7 +39,7 @@ import AutoSaveForm from './components/AutoSaveForm'
 import Parent from './components/Parent'
 import UseReducer from './components/useReducer'
 import UseReducer2 from './components/UseReducer2'
-
+import UseReducer3 from './components/useReducer3'
 // Using UseContext()
 import { createContext , useContext } from 'react'
 
@@ -145,13 +145,14 @@ function App() {
 
       <Parent />
 
-      // Using UseContext()
+      {/* // Using UseContext() */}
       <userContext.Provider value={user}>
         <UCParent />
       </userContext.Provider>
 
       <UseReducer />
       <UseReducer2 />
+      <UseReducer3 />
 
     </>
   )
